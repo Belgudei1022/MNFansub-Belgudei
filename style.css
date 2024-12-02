@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #212121;
+}
+.Menu{
+    height: 60px;
+    width: 100%;
+    background-color: #212121;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.Menu nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+    
+}
+.Menu .logo{
+    width: 200px;
+    height: 58px;
+    align-items: center;
+    display: flex;
+    
+}
+.Menu .logo img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.Menu .items{
+    width: 200px;
+    height: 58px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:row ;
+    margin-left: 1120px ;
+    align-items: center;
+}
+.Menu .items .item{
+    width: 50px;
+    height: 58px;
+    box-sizing: border-box;
+    border-left: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content{
+    width: 100%;
+    height: 720px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 10px;
+    margin-top: 30px;
+}
+.Content .video{
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+}
+.Content .video img{
+    width: 288px;
+    height: 198px;
+    border-radius: 10px;
+}
+.More{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.More .more{
+    width: 1200px;
+    height: 40px;
+    background-color: #161616;
+    color: #7E7E7E;
+    border-radius: 10px;
+}
+.zar {
+    width:100%;
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.zar .ad{
+    width: 900px;
+    height: 200px;
+    background-color: #282828;
+}
+.Contents{
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Contents .deed{
+    width: 1200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.Contents .deed .ner{
+    color: #7E7E7E;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+}
+.Contents .deed .sum{
+    color: #7E7E7E;
+    font-size: larger;
+}
+.Contents .dood {
+    width: 1200px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Contents .dood .bichleg{
+    width: 190px;
+    height: 280px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.Contents .dood .bichleg img{
+    width: 188px;
+    height: 278px;
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.footer .deed{
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid rgb(87, 87, 87);
+    display: flex;
+    justify-content: end;
+}
+.footer .deed .link{
+    width: 50px;
+    height: 58px;
+    border-left: 1px solid rgb(87, 87, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .dood{
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid rgb(87, 87, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .dood .text{
+    color: #7E7E7E;
+}
